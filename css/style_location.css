@@ -1,0 +1,122 @@
+.location{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.location h1{
+  font-size: 4vw;
+  color: rgb(76, 75, 75);
+  letter-spacing: .5px;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+.location .location-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.location-item-text{
+  flex-basis: 45%;
+}
+
+.location-item .location-item-text h2{
+  font-size: 2vw;
+  color: rgb(13, 179, 87);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+
+}
+
+.location-item .location-item-text p{
+  color: rgb(76, 75, 75);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.location-item-map{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.location-item-map iframe{
+  transition: .5s;
+  width: 100%;
+  height: 400px;
+}
+
+.pembungkus1-map{
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .5s;
+  width: 80%;
+}
+
+.pembungkus2-map{
+  overflow: hidden;
+}
+
+.pembungkus1-map:hover{
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.location-item-map iframe:hover{
+  transform: scale(1.05);
+}
+
+@media screen and (max-width:900px){
+
+}
+
+@media screen and (max-width:740px){
+
+  .location .location-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.location-item-text{
+  margin-bottom: 30px;
+
+}
+
+  .location-item .location-item-text p{
+    color: rgb(76, 75, 75);
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+
+  }
+
+  .location h1{
+    font-size: 5vw;
+    margin-bottom: 20px;
+  }
+
+  .location-item .location-item-text h2{
+    font-size: 3vw;
+  }
+
+}
+
+@media screen and (max-width:520px){
+  .location h1{
+    font-size: 6vw;
+  }
+
+  .location-item .location-item-text h2{
+
+    font-size: 4vw;
+  }
+
+}

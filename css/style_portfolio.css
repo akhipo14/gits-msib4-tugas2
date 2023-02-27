@@ -1,0 +1,395 @@
+
+.Portfolio{
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.Portfolio h1{
+  font-size: 4vw;
+  color: rgb(76, 75, 75);
+  letter-spacing: .5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.port-website-text h2{
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(13, 179, 87);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.port-website-text p{
+  color: rgb(76, 75, 75);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.port-website-img{
+  display: flex;
+  flex-direction: row;
+}
+
+.port-website-img .kiri{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.port-website-img .kanan{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.port-website-img .kiri .grup{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.port-website-img .kanan .grup{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.port-website .grup:hover{
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.port-website-img .kiri .grup img{
+  width: 100%;
+  transition: .5s;
+}
+
+.port-website-img .kanan .grup img{
+  width: 100%;
+  transition: .5s;
+}
+
+.hover-effect{
+  overflow: hidden;
+}
+
+.hover-effect img:hover{
+  transform: scale(1.2);
+}
+
+.github{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(13, 179, 87);
+  margin-top: 5px;
+  transition: .5s;
+}
+
+.github:hover{
+  background-color: rgb(76, 75, 75);
+}
+
+.github a{
+  color: white;
+}
+
+.port-design{
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.port-design-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.port-design-text h2{
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(13, 179, 87);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.port-design-text p{
+  color: rgb(76, 75, 75);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.port-design-img{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.design-img-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.design-img-1 .pembungkus-gambar{
+  padding: 10px ;
+  margin: 10px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .5s;
+}
+
+.design-img-1 .pembungkus-gambar:hover{
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.design-img-1 .hidden-effect{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.design-img-1 img{
+  width: 100%;
+  margin: auto;
+  transition: .5s;
+
+}
+
+.hidden-effect img:hover{
+  transform: scale(1.2);
+}
+
+.design-img-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.design-img-2 .pembungkus-gambar{
+  padding: 10px ;
+  margin: 10px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .5s;
+}
+
+.design-img-2 .pembungkus-gambar:hover{
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.design-img-2 .hidden-effect{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.design-img-2 img{
+  width: 100%;
+  margin: auto;
+  transition: .5s;
+
+}
+
+.design-img-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.design-img-3 .pembungkus-gambar{
+  padding: 10px ;
+  margin: 10px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .5s;
+}
+
+.design-img-3 .pembungkus-gambar:hover{
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.design-img-3 .hidden-effect{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.design-img-3 img{
+  width: 100%;
+  margin: auto;
+  transition: .5s;
+
+}
+
+
+
+@media screen and (max-width:900px){
+
+  .port-design-text h2{
+    font-size: 3vw;
+  }
+
+  .port-website-img{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .port-website-text h2{
+    font-size: 3vw;
+  }
+
+  .port-website-img{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .port-website-img .grup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    font-size: .9em;
+    margin: 10px;
+    letter-spacing: .8px;
+    color: rgb(76, 75, 75);
+    border-radius: 5px;
+    text-align: justify;
+    transition: .5s;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+}
+
+@media screen and (max-width:740px){
+
+  .design-img-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+
+  .design-img-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+
+  .design-img-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+
+  .port-design-text p{
+    color: rgb(76, 75, 75);
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 90%;
+    margin: auto;
+  }
+
+
+  .port-website-img .kiri .grup{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+
+  .port-website-img .kanan .grup{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+
+  .port-website-img .kiri .grup img{
+    width: 100%;
+    transition: .5s;
+  }
+
+  .port-website-img .kanan .grup img{
+    width: 100%;
+    transition: .5s;
+  }
+
+  .port-website-img .kiri{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .port-website-img .kanan{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Portfolio h1{
+    font-size: 5vw;
+  }
+
+  .port-website-text p{
+    color: rgb(76, 75, 75);
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 90%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width:520px){
+
+  .port-design-text h2{
+    font-size: 4vw;
+  }
+
+  .port-website-text h2{
+    font-size: 4vw;
+  }
+
+  .Portfolio h1{
+    font-size: 6vw;
+  }
+
+}
